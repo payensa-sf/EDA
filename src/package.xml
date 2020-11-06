@@ -87,6 +87,7 @@
         <members>COUR_DescriptionCopy_BATCH</members>
         <members>COUR_DescriptionCopy_TEST</members>
         <members>CTRL_FieldSelectOption</members>
+        <members>CTRL_PicklistSelectOption</members>
         <members>ERR_AsyncErrors</members>
         <members>ERR_AsyncErrors_SCHED</members>
         <members>ERR_AsyncErrors_TEST</members>
@@ -104,7 +105,9 @@
         <members>MAPR_PrimaryAffiliations_TEST</members>
         <members>MAPR_Schema</members>
         <members>MODL_DescribeSObject</members>
+        <members>MODL_FieldDescribe</members>
         <members>MODL_GlobalDescribe</members>
+        <members>MODL_PicklistFieldDescribe</members>
         <members>MODL_PrimaryAfflMapper</members>
         <members>MODL_PrimaryAfflMapper_TEST</members>
         <members>PPlan_CannotDelete_TDTM</members>
@@ -133,6 +136,7 @@
         <members>SRVC_Contact_PrimaryAffiliations</members>
         <members>SRVC_Contact_PrimaryAffiliations_TEST</members>
         <members>SRVC_FieldSelectOption</members>
+        <members>SRVC_PicklistSelectOption</members>
         <members>SRVC_Schema</members>
         <members>SRVC_UniqueRecord</members>
         <members>SRVC_UniqueRecord_TEST</members>
@@ -1346,7 +1350,9 @@
         <name>Layout</name>
     </types>
     <types>
+        <members>dropDown</members>
         <members>objectSelector</members>
+        <members>parentComponent</members>
         <members>toastHandler</members>
         <name>LightningComponentBundle</name>
     </types>

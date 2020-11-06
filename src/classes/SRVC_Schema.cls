@@ -45,6 +45,23 @@ public virtual with sharing class SRVC_Schema {
     }
 
     /**
+    * @description Gets an sObject model list by api names. Note that this would be bulkified if it were not config
+    */
+    public List<MODL_picklistFieldDescribe> getPicklistFieldDescribeModelsByObjectAndFieldApiNameList(String objectAPI, List<String> fieldAPIList) {
+
+        List<MODL_picklistFieldDescribe> picklistFieldModelList = new List<MODL_picklistFieldDescribe>();
+
+        for(String apiName : fieldAPIList) {
+
+            MODL_picklistFieldDescribe  picklistModel = this.locateSchemaMapper().getPicklistFieldDescribeModelByObjectAndFieldApiName(objectAPI, apiName);
+            picklistFieldModelList.add(picklistModel);
+        }
+
+        return picklistFieldModelList;
+
+    }
+
+    /**
     * @description Locates and returns an instance of the schema mapper
     */
     private MAPR_Schema locateSchemaMapper() {
