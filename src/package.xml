@@ -869,6 +869,7 @@
         <members>stgTabCourseConn</members>
         <members>stgTabName</members>
         <members>stgTabPrimaryAfflField</members>
+        <members>parentObjectCustomLabel</members>
         <members>stgTabProgramPlan</members>
         <members>stgTabReciprocalSettings</members>
         <members>stgTabRel</members>

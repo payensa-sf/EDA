@@ -9,6 +9,14 @@
         <value>Mapped Primary Affiliations appear in a special Primary Affiliations section on the Contact record. The value set as Primary for an Account Record Type appears in the corresponding fields on the Contact record, as defined below. For more information, see the</value>
     </labels>
     <labels>
+        <fullName>parentObjectCustomLabel</fullName>
+        <categories>Settings</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Label to use in parent object to pass object to child</shortDescription>
+        <value>Account</value>
+    </labels>
+    <labels>
         <fullName>AfflProgEnrollDeleted</fullName>
         <categories>Settings</categories>
         <language>en_US</language>
