@@ -66,14 +66,13 @@
         <members>CON_CannotDelete_TEST</members>
         <members>CON_DoNotContact_TDTM</members>
         <members>CON_DoNotContact_TEST</members>
-        <members>CON_Email</members>
         <members>CON_Email_BATCH</members>
-        <members>CON_Email_TEST</members>
         <members>CON_EthnicityRace_BATCH</members>
         <members>CON_EthnicityRace_TEST</members>
         <members>CON_Phone</members>
         <members>CON_PreferredPhone_TDTM</members>
         <members>CON_PreferredPhone_TEST</members>
+        <members>CON_Preferred_Email_TEST</members>
         <members>CON_Preferred_TDTM</members>
         <members>CON_Preferred_TEST</members>
         <members>CON_PrimaryAffls_TDTM</members>
@@ -86,7 +85,6 @@
         <members>COUR_CannotDelete_TEST</members>
         <members>COUR_DescriptionCopy_BATCH</members>
         <members>COUR_DescriptionCopy_TEST</members>
-        <members>CTRL_FieldSelectOption</members>
         <members>ERR_AsyncErrors</members>
         <members>ERR_AsyncErrors_SCHED</members>
         <members>ERR_AsyncErrors_TEST</members>
@@ -100,11 +98,14 @@
         <members>ERR_Notifier</members>
         <members>FACI_CannotDelete_TDTM</members>
         <members>FACI_CannotDelete_TEST</members>
+        <members>MAPR_CON_PreferredEmailFields</members>
+        <members>MAPR_CON_PreferredEmailFields_TEST</members>
         <members>MAPR_PrimaryAffiliations</members>
         <members>MAPR_PrimaryAffiliations_TEST</members>
-        <members>MAPR_Schema</members>
-        <members>MODL_DescribeSObject</members>
-        <members>MODL_GlobalDescribe</members>
+        <members>MODL_PreferredEmailField</members>
+        <members>MODL_PreferredEmailField_TEST</members>
+        <members>MODL_PreferredEmailSettings</members>
+        <members>MODL_PreferredEmailSettings_TEST</members>
         <members>MODL_PrimaryAfflMapper</members>
         <members>MODL_PrimaryAfflMapper_TEST</members>
         <members>PPlan_CannotDelete_TDTM</members>
@@ -128,12 +129,12 @@
         <members>REL_Utils</members>
         <members>SRVC_ContactPrimaryLanguage</members>
         <members>SRVC_ContactPrimaryLanguage_TEST</members>
+        <members>SRVC_Contact_PreferredEmail</members>
+        <members>SRVC_Contact_PreferredEmail_TEST</members>
         <members>SRVC_Contact_PreventDeletion</members>
         <members>SRVC_Contact_PreventDeletion_TEST</members>
         <members>SRVC_Contact_PrimaryAffiliations</members>
         <members>SRVC_Contact_PrimaryAffiliations_TEST</members>
-        <members>SRVC_FieldSelectOption</members>
-        <members>SRVC_Schema</members>
         <members>SRVC_UniqueRecord</members>
         <members>SRVC_UniqueRecord_TEST</members>
         <members>STG_Base_CTRL</members>
@@ -695,7 +696,6 @@
         <members>defaultNamingConnector</members>
         <members>duplicateFieldInFilter</members>
         <members>duplicateWithHEDAField</members>
-        <members>errorCannotRetrieveData</members>
         <members>exceptionRequiredField</members>
         <members>exceptionValidationRule</members>
         <members>fieldWithHEDANamespace</members>
@@ -717,8 +717,6 @@
         <members>noAfflMappings</members>
         <members>noAutoCreateSettings</members>
         <members>noRecSettings</members>
-        <members>objectSelectComboboxLabel</members>
-        <members>objectSelectComboboxPlaceholder</members>
         <members>preferredBatchDefaultEmail</members>
         <members>preferredBatchDefaultPhone</members>
         <members>stgAccModelTitle</members>
@@ -1344,11 +1342,6 @@
         <members>Time_Block__c-EDA Time Block Layout</members>
         <members>Trigger_Handler__c-HEDA Trigger Handler Layout</members>
         <name>Layout</name>
-    </types>
-    <types>
-        <members>objectSelector</members>
-        <members>toastHandler</members>
-        <name>LightningComponentBundle</name>
     </types>
     <types>
         <members>Address__c.All</members>
